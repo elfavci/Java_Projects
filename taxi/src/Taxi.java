@@ -14,6 +14,7 @@ public class Taxi {
 		else {
 			System.out.println("20 TL odenecek");
 		}
+		in.close();
 	}
 
 }

@@ -13,5 +13,6 @@ public class KDVhesap {
 		priceTwo=calcTwo-money;
 		System.out.println(money<0?"cannot be less then zero":money>1000?"price with VAT= "+calcTwo+"\nVAT rate=0.08"+"\nVAT price="+priceTwo:
 				"price with VAT="+calc+"\nVAT rate=0.18"+"\nVAT price="+price);
+		inp.close();
 	}
 }

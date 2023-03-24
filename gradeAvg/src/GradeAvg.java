@@ -21,7 +21,7 @@ public class GradeAvg {
 		
 		avg= (mat+fiz+kim+tur+tar+muz)/6;
 		System.out.print((avg>60)?"Sinifi gecti":"Sinifta kaldi");
-		
+		input.close();
 
 	}
 

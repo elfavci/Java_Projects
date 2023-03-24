@@ -10,5 +10,6 @@ public class Kitle {
 		
 		double bki = kilo/(boy*boy);
 		System.out.print("beden kitle indeksiniz:" + bki);
+		scanner.close();
 	}
 }

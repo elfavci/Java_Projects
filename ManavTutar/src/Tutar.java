@@ -21,5 +21,6 @@ public class Tutar {
 		else {
 			System.out.println("kilo degeri negatif sayi olamaz!");
 		}
+		inp.close();
 	}
 }

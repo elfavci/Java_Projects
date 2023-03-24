@@ -15,5 +15,6 @@ public class Hypotenuse {
 		u=(f+s+t)/2;
 		area=Math.sqrt(u*(u-f)*(u-s)*(u-t));
 		System.out.print("area of ​​triangle="+area);
+		input.close();
 	}
 }

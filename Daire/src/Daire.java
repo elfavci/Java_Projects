@@ -9,5 +9,6 @@ public class Daire {
 		a=in.nextDouble();
 		alan=(pi*(r*r)*a)/360;
 		System.out.println(alan);
+		in.close();
 	}
 }
