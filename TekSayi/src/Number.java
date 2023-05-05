@@ -13,7 +13,5 @@ public class Number {
 		}while(n%2!=1);
 		System.out.println("Total = " +total);
 		input.close();
-
 	}
-
 }
